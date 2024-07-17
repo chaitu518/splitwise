@@ -9,6 +9,6 @@ import lombok.Setter;
 @Entity(name = "users")
 public class User extends BaseModel {
     private String name;
-    private String email;
+    private Long phoneNumber;
     private String password;
 }
